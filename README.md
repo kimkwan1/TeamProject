@@ -166,3 +166,14 @@ model.add(layers.Dense(1, activation='relu', name='linear_layer2'))
 
 위의 그림은 각각의 온도마다 데이터를 따로 학습 후, 필터의 평균값을 구했다. 다른 이미지(MNIST, 사람) 데이터는 특정 부분마다 개연성 있는 공통적인 특징(ex:코 아래 입)이 있고 가중치 행렬이 학습을 하였다면, 우리가 사용한 데이터는 전체적인 클러스터의 분포를 학습했다고 볼 수 있다. 
 또한 위 그림의 필터값을 보면 2.3~2.6사이에 다른 온도보다 전체적으로 활성화 된 모습을 띈다. 다른 온도에서는 데이터 사이의 급격한 변화가 적고 한 데이터 속에서 부분 부분이 비슷하기 때문에 필터가 작은 정보로도 충분히 학습한 것으로 보여진다. 그러나 상전이 현상이 일어나는 온도 근처에서는 각 데이터의 클러스터 위치 변화가 크고 학습에 많은 정보를 필요로 하여 복잡한 계산 때문에 활성화 되었다고 유추할 수 있다.
+
+# 조건부 적대적 생성 신경망( conditional Generative Adversarial Network, cGAN)
+
+
+<img src="https://github.com/kimkwan1/TeamProject/blob/main/GAN.png" />
+
+
+<img src="https://github.com/kimkwan1/TeamProject/blob/main/GAN_model.png" />
+
+
+<img src="https://github.com/kimkwan1/TeamProject/blob/main/GAN_mag.png" />
