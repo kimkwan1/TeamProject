@@ -153,6 +153,7 @@ model.add(layers.Dense(1, activation='relu', name='linear_layer2'))
 그렇다면 우리의 바람대로 CNN의 가중치행렬이 학습을 잘 하였고 필터들을 분석한다면 데이터에서 압축한 정보, 즉 Order Parameter와 관련지어 볼 수 있을 것이다.
 
 **필터의 평균값**
+
 <img src="https://github.com/kimkwan1/TeamProject/blob/main/weights1.png" />
 
 <img src="https://github.com/kimkwan1/TeamProject/blob/main/weights2.png" />
