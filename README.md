@@ -174,9 +174,10 @@ model.add(layers.Dense(1, activation='relu', name='linear_layer2'))
 <img src="https://github.com/kimkwan1/TeamProject/blob/main/GAN_model.png" />
 
 
-
 <img src="https://github.com/kimkwan1/TeamProject/blob/main/GAN.png" />
 
+
+<img src="https://github.com/kimkwan1/TeamProject/blob/main/cgan_ising.gif" />
 
 
 <img src="https://github.com/kimkwan1/TeamProject/blob/main/GAN_mag.png" />
